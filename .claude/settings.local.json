@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.drrajatchauhan.com)",
+      "Bash(Get-ChildItem -Recurse \"C:\\\\Users\\\\chauh\\\\OneDrive\\\\Documents\\\\GitHub\\\\Drrajatchauhan\")",
+      "Bash(Select-Object FullName, Length)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "ruflo"
+  ]
+}
