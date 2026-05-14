@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect | Dr. Rajat Chauhan</title>
+  <meta name="description" content="Get in touch about an injury, a race goal, a wellness program, or a speaking ask.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-theme="sunset">
+
+  <div class="loader" id="loader"><div class="loader-ring"></div><p class="loader-text">Keep Miling &amp; Smiling</p></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <div class="theme-switcher" id="themeSwitcher">
+    <button class="theme-toggle" id="themeToggle" aria-label="Change theme">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+      </svg>
+    </button>
+    <div class="theme-panel" id="themePanel">
+      <h4>Choose Theme</h4>
+      <div class="theme-options">
+        <button class="theme-opt" data-theme="sunset"></button>
+        <button class="theme-opt" data-theme="aurora"></button>
+        <button class="theme-opt" data-theme="forest"></button>
+        <button class="theme-opt" data-theme="royale"></button>
+        <button class="theme-opt" data-theme="daylight"></button>
+      </div>
+      <div class="theme-name" id="themeName">Sunset</div>
+    </div>
+  </div>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><span class="logo-dr">Dr.</span><span class="logo-name">Rajat Chauhan</span></a>
+      <div class="nav-tabs">
+        <a href="index.html"    class="tab">Home</a>
+        <a href="about.html"    class="tab">About</a>
+        <a href="journey.html"  class="tab">Journey</a>
+        <a href="books.html"    class="tab">Books</a>
+        <a href="laultra.html"  class="tab">La Ultra</a>
+        <a href="services.html" class="tab">Services</a>
+        <a href="connect.html"  class="tab">Connect</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="mob-menu" id="mobMenu">
+    <a href="index.html"    class="mob-link">Home</a>
+    <a href="about.html"    class="mob-link">About</a>
+    <a href="journey.html"  class="mob-link">Journey</a>
+    <a href="books.html"    class="mob-link">Books</a>
+    <a href="laultra.html"  class="mob-link">La Ultra</a>
+    <a href="services.html" class="mob-link">Services</a>
+    <a href="connect.html"  class="mob-link">Connect</a>
+  </div>
+
+  <header class="page-header">
+    <div class="page-orbs"><div class="orb orb-1"></div><div class="orb orb-2"></div><div class="orb orb-3"></div></div>
+    <div class="container">
+      <span class="page-tag">Connect</span>
+      <h1 class="page-title">Let's Start <em class="gradient">Moving</em></h1>
+      <p class="page-subtitle">Reach out to begin your journey toward pain-free, active living.</p>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <div class="container">
+      <div class="connect-grid">
+        <div class="connect-left anim-in">
+          <div class="contact-row">
+            <span class="c-icon">📧</span>
+            <div>
+              <span class="c-label">Email</span>
+              <a href="mailto:drrajatchauhan@gmail.com" class="c-val">drrajatchauhan@gmail.com</a>
+            </div>
+          </div>
+          <div class="social-block">
+            <span class="soc-label">Follow Dr. Chauhan</span>
+            <div class="soc-icons">
+              <a href="#" class="soc-btn" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg></a>
+              <a href="#" class="soc-btn" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+              <a href="#" class="soc-btn" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.96A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon fill="white" points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg></a>
+              <a href="#" class="soc-btn" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+              <a href="#" class="soc-btn" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+            </div>
+          </div>
+          <div class="goya-block anim-in delay-1">
+            <h3>The GOYA Philosophy</h3>
+            <p><strong>Get Off Your Ass</strong> — Dr. Chauhan's rallying call for a healthier, more active life. The body is designed to move. Every journey begins with a single step. Start yours today.</p>
+          </div>
+        </div>
+        <div class="connect-right anim-in delay-1">
+          <form id="contactForm" class="c-form" novalidate>
+            <div class="f-group"><label for="fname">Full Name</label><input type="text" id="fname" name="name" placeholder="Your name" required></div>
+            <div class="f-group"><label for="femail">Email Address</label><input type="email" id="femail" name="email" placeholder="you@email.com" required></div>
+            <div class="f-group">
+              <label for="finterest">I'm interested in</label>
+              <select id="finterest" name="interest">
+                <option value="">Select a service...</option>
+                <option>Back &amp; Pain Management</option>
+                <option>Running Programs</option>
+                <option>Corporate Wellness</option>
+                <option>La Ultra Race</option>
+                <option>Books &amp; Speaking</option>
+              </select>
+            </div>
+            <div class="f-group"><label for="fmsg">Message</label><textarea id="fmsg" name="message" rows="4" placeholder="Tell Dr. Chauhan about your goal..."></textarea></div>
+            <button type="submit" class="btn btn-primary btn-full"><span>Send Message</span> <span class="btn-arr">→</span></button>
+            <p class="form-success" id="formSuccess">Message sent! Dr. Chauhan will be in touch.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand"><span class="logo-dr">Dr.</span><span class="logo-name">Rajat Chauhan</span></div>
+        <p class="footer-tag">Student of Pain &amp; Running (Life) &bull; Keep Miling &amp; Smiling</p>
+        <p class="footer-copy">&copy; 2026 Dr. Rajat Chauhan. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

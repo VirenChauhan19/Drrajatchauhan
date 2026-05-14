@@ -55,8 +55,10 @@
     return new THREE.Points(geo, mat);
   }
 
-  dnaGroup.add(makeStrand(s1Pos, 0xFF4500));   // orange
-  dnaGroup.add(makeStrand(s2Pos, 0xFFB627));   // gold
+  const strand1 = makeStrand(s1Pos, 0xFF4500);  // orange
+  const strand2 = makeStrand(s2Pos, 0xFFB627);  // gold
+  dnaGroup.add(strand1);
+  dnaGroup.add(strand2);
 
   /* ── Connector rungs ────────────────────────────────── */
   const RUNG_STEP = 8;
@@ -117,6 +119,15 @@
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
   });
+
+  /* ── Expose theme color update API ──────────────────── */
+  window.updateSceneColors = function (colors) {
+    if (!colors) return;
+    strand1.material.color.setHex(colors.primary);
+    strand2.material.color.setHex(colors.secondary);
+    rungMat.color.setHex(colors.primary);
+    ambMat.color.setHex(colors.secondary);
+  };
 
   /* ── Animation loop ─────────────────────────────────── */
   let time = 0;

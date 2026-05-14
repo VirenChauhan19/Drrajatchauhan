@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Ultra — The High | Dr. Rajat Chauhan</title>
+  <meta name="description" content="222 km in the Himalayas. One of the world's most punishing ultramarathons.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-theme="sunset">
+
+  <div class="loader" id="loader"><div class="loader-ring"></div><p class="loader-text">Keep Miling &amp; Smiling</p></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <div class="theme-switcher" id="themeSwitcher">
+    <button class="theme-toggle" id="themeToggle" aria-label="Change theme">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+      </svg>
+    </button>
+    <div class="theme-panel" id="themePanel">
+      <h4>Choose Theme</h4>
+      <div class="theme-options">
+        <button class="theme-opt" data-theme="sunset"></button>
+        <button class="theme-opt" data-theme="aurora"></button>
+        <button class="theme-opt" data-theme="forest"></button>
+        <button class="theme-opt" data-theme="royale"></button>
+        <button class="theme-opt" data-theme="daylight"></button>
+      </div>
+      <div class="theme-name" id="themeName">Sunset</div>
+    </div>
+  </div>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><span class="logo-dr">Dr.</span><span class="logo-name">Rajat Chauhan</span></a>
+      <div class="nav-tabs">
+        <a href="index.html"    class="tab">Home</a>
+        <a href="about.html"    class="tab">About</a>
+        <a href="journey.html"  class="tab">Journey</a>
+        <a href="books.html"    class="tab">Books</a>
+        <a href="laultra.html"  class="tab">La Ultra</a>
+        <a href="services.html" class="tab">Services</a>
+        <a href="connect.html"  class="tab">Connect</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="mob-menu" id="mobMenu">
+    <a href="index.html"    class="mob-link">Home</a>
+    <a href="about.html"    class="mob-link">About</a>
+    <a href="journey.html"  class="mob-link">Journey</a>
+    <a href="books.html"    class="mob-link">Books</a>
+    <a href="laultra.html"  class="mob-link">La Ultra</a>
+    <a href="services.html" class="mob-link">Services</a>
+    <a href="connect.html"  class="mob-link">Connect</a>
+  </div>
+
+  <header class="page-header">
+    <div class="page-orbs"><div class="orb orb-1"></div><div class="orb orb-2"></div><div class="orb orb-3"></div></div>
+    <div class="container">
+      <span class="page-tag">La Ultra — The High</span>
+      <h1 class="page-title">Where <em class="gradient">Limits</em> Go to Die</h1>
+      <p class="page-subtitle">One of the world's most gruelling ultramarathons, set amidst the majestic Himalayas of Ladakh.</p>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <div class="laultra-particles" id="ultraParticles"></div>
+    <div class="container">
+      <div class="ultra-stats anim-in">
+        <div class="ustat"><span class="unum">222</span><span class="uunit">km</span><span class="ulabel">Max Distance</span></div>
+        <div class="ustat"><span class="unum">5,400</span><span class="uunit">m</span><span class="ulabel">Peak Altitude</span></div>
+        <div class="ustat"><span class="unum">3</span><span class="uunit">+</span><span class="ulabel">Mountain Passes</span></div>
+        <div class="ustat"><span class="unum">72</span><span class="uunit">hrs</span><span class="ulabel">Time Limit</span></div>
+      </div>
+      <div class="ultra-body">
+        <div class="ultra-text anim-in delay-1">
+          <p>La Ultra – The High pushes participants through extremes of altitude, terrain, and human endurance. Founded by Dr. Rajat Chauhan in 2009, the race has become a global pilgrimage for the world's toughest ultra-runners.</p>
+          <p>With distances of 55km, 111km, and 222km, it is a race that tests not just the body, but the mind and spirit — embodying Dr. Chauhan's belief that <strong>impossible is a choice, not a destination</strong>.</p>
+          <div class="ultra-feats">
+            <div class="ufeat">🏔️ Himalayas, Ladakh, India</div>
+            <div class="ufeat">🌡️ Extreme altitude &amp; temperature</div>
+            <div class="ufeat">🏃 55km / 111km / 222km distances</div>
+            <div class="ufeat">🌟 Global ultra-runner community</div>
+            <div class="ufeat">⛰️ Khardung La, Wari La, Tanglang La</div>
+          </div>
+        </div>
+        <div class="ultra-badge anim-in delay-2">
+          <div class="badge-ring"></div>
+          <div class="badge-inner">
+            <span class="badge-top">La Ultra</span>
+            <span class="badge-main">THE HIGH</span>
+            <span class="badge-loc">LADAKH</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand"><span class="logo-dr">Dr.</span><span class="logo-name">Rajat Chauhan</span></div>
+        <p class="footer-tag">Student of Pain &amp; Running (Life) &bull; Keep Miling &amp; Smiling</p>
+        <p class="footer-copy">&copy; 2026 Dr. Rajat Chauhan. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
